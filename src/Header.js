@@ -13,6 +13,11 @@ function Header() {
         <input className="header_searchInput" type="text" />
         {/* Logo */}
       </div>
+      <div className="header_nav">
+        <div className="header_option"></div>
+        <div className="header_option"></div>
+        <div className="header_option"></div>
+      </div>
     </div>
   );
 }
