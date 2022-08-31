@@ -10,10 +10,12 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          {/* Header */}
-          <Header />
-          {/* Home */}
-          <Home />
+          <Route path="/">
+            {/* Header Component */}
+            <Header />
+            {/* Home Component */}
+            <Home />
+          </Route>
         </Switch>
       </div>
     </Router>
