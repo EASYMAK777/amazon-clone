@@ -55,6 +55,13 @@
     font-weight: 800;
 }
 
+.header-optionCart{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
 .header_nav{
     display: flex;
     justify-content: space-evenly;
