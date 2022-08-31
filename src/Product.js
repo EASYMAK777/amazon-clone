@@ -12,6 +12,9 @@ function Product() {
           <small>$</small>
           <strong>19.99</strong>
         </p>
+        <div className="product_rating">
+          <p>⭐</p>
+        </div>
       </div>
     </div>
   );

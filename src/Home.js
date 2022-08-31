@@ -6,16 +6,17 @@ function Home() {
   return (
     <div className="home">
       <div className="home_container">
-        <img
+        {/* <img
           className="home_image"
           src="https://andrewminalto.com/wp-content/uploads/2021/01/3fa6f-online-shopping.jpg"
           alt="background_image"
-        />
+        /> */}
         {/* HOME ROW 1 */}
         <div className="home_row">
           {/*Product  */}
           <Product />
           {/* Product */}
+          <Product />
         </div>
         {/* HOME ROW 2 */}
         <div className="home_row">
