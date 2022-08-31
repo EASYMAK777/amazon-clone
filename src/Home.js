@@ -6,25 +6,30 @@ function Home() {
   return (
     <div className="home">
       <div className="home_container">
-        {/* <img
+        <img
           className="home_image"
-          src="https://andrewminalto.com/wp-content/uploads/2021/01/3fa6f-online-shopping.jpg"
+          src="https://images-na.ssl-images-amazon.com/images/G/01/credit/img21/PLCC/udp/PLCC_ACQ_LandingPage_Desktop_NonPrime_BackgroundImage._CB654651579_.jpg"
+          // src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/app-submission/guidelines_appicon1._TTH_.jpg"
           alt="background_image"
-        /> */}
+        />
         {/* HOME ROW 1 */}
         <div className="home_row">
-          {/*Product  */}
           <Product />
-          {/* Product */}
+
+          <Product />
         </div>
         {/* HOME ROW 2 */}
         <div className="home_row">
-          {/*Product */}
-          {/* Product */}
-          {/* Product */}
+          <Product />
+
+          <Product />
+
+          <Product />
         </div>
         {/* HOME ROW 3 */}
-        <div className="home_row">{/* Product */}</div>
+        <div className="home_row">
+          <Product />
+        </div>
       </div>
     </div>
   );
