@@ -14,7 +14,14 @@ function Home() {
         />
         {/* HOME ROW 1 */}
         <div className="home_row">
-          <Product />
+          <Product
+            title="The lean startup"
+            price={29.99}
+            image={
+              "https://assets.chegg.com/rqm/image/upload/f_auto,q_auto,t_imgWidth288/covers/9780307887894.jpg"
+            }
+            rating={5}
+          />
           <Product />
         </div>
         {/* HOME ROW 2 */}
