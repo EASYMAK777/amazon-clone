@@ -4,7 +4,13 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      <p>I am the Home Component</p>
+      <div className="home_container">
+        <img
+          className="home_image"
+          src="https://andrewminalto.com/wp-content/uploads/2021/01/3fa6f-online-shopping.jpg"
+          alt="background_image"
+        />
+      </div>
     </div>
   );
 }
