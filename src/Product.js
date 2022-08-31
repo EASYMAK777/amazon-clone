@@ -14,6 +14,10 @@ function Product() {
         </p>
         <div className="product_rating">
           <p>⭐</p>
+          <p>⭐</p>
+          <p>⭐</p>
+          <p>⭐</p>
+          <p>⭐</p>
         </div>
       </div>
     </div>
