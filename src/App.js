@@ -9,10 +9,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* Header */}
-        <Header />
-        {/* Home */}
-        <Home />
+        <Switch>
+          {/* Header */}
+          <Header />
+          {/* Home */}
+          <Home />
+        </Switch>
       </div>
     </Router>
   );
