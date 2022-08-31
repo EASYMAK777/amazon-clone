@@ -15,6 +15,7 @@ function Home() {
         {/* HOME ROW 1 */}
         <div className="home_row">
           <Product
+            id="456"
             title="The lean startup"
             price={29.99}
             image={
@@ -22,19 +23,57 @@ function Home() {
             }
             rating={3}
           />
-          <Product />
+          <Product
+            id="1234"
+            title="Kenwood Kmix Stand mixer"
+            price={129.99}
+            image={"https://i.ebayimg.com/images/g/Zj0AAOSwIbBgsMYN/s-l500.jpg"}
+            rating={5}
+          />
         </div>
         {/* HOME ROW 2 */}
         <div className="home_row">
-          <Product />
+          <Product
+            id="7890"
+            title="Panasonic LG QNED Television"
+            price={1299.99}
+            image={
+              "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/914OJHznVnL._AC_SX466_.jpg"
+            }
+            rating={4}
+          />
 
-          <Product />
+          <Product
+            id="1011"
+            title="Tesla model 3"
+            price={49999.99}
+            image={
+              "https://www.tesla.com/ownersmanual/images/GUID-BEE67A59-6DD7-460C-9C49-0DD47E707A02-online-en-US.jpg"
+            }
+            rating={1}
+          />
 
-          <Product />
+          <Product
+            id="1213"
+            title="Eldin Ring PS3"
+            price={49.99}
+            image={
+              "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81yuT9n7gkL._AC_UY218_.jpg"
+            }
+            rating={5}
+          />
         </div>
         {/* HOME ROW 3 */}
         <div className="home_row">
-          <Product />
+          <Product
+            id="1415"
+            title="High Quality Tape Measure"
+            price={59.99}
+            image={
+              "https://www.qualitylogoproducts.com/tradeshow-promotions/16ft-tape-measure-hq-452856.jpg?size=details"
+            }
+            rating={5}
+          />
         </div>
       </div>
     </div>
