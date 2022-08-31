@@ -45,6 +45,15 @@
     margin-right: 10px;
     color: white;
 }
+.header_optionLineOne{
+    font-size: 10px;
+
+}
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
 
 .header_nav{
     display: flex;
