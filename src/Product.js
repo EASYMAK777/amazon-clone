@@ -7,8 +7,12 @@ function Product() {
       {/* Title */}
       <div className="product_info">
         <p>The lean startup</p>
+        {/* Price */}
+        <p className="product_price">
+          <small>$</small>
+          <strong>19.99</strong>
+        </p>
       </div>
-      {/* Price */}
     </div>
   );
 }
