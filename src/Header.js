@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 function Header() {
   return (
@@ -8,6 +9,7 @@ function Header() {
       <img
         className="header"
         src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        alt="amazon-logo"
       />
 
       <div className="header_search">
@@ -34,6 +36,10 @@ function Header() {
           </div>
           <div className="header_option">
             <span className="header_optionlineTwo">Prim3</span>
+          </div>
+
+          <div className="header_optionBasket">
+            <ShoppingCartIcon />
           </div>
         </div>
       </div>
