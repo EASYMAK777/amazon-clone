@@ -16,7 +16,6 @@ function Home() {
           {/*Product  */}
           <Product />
           {/* Product */}
-          <Product />
         </div>
         {/* HOME ROW 2 */}
         <div className="home_row">
