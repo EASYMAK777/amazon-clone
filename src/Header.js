@@ -11,36 +11,33 @@ function Header() {
         src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
         alt="amazon-logo"
       />
-
+      {/* Header Search bar and Icon */}
       <div className="header_search">
         <input className="header_searchInput" type="text" />
         <SearchIcon className="header_searchIcon" />
       </div>
       <div className="header_nav">
-        {/* Sign in */}
+        {/* Hello Guest Sign-In */}
         <div className="header_option">
           <span className="header_optionlineOne">Hello Guest</span>
-        </div>
-        <div className="header_option">
           <span className="header_optionlineTwo">Sign-in</span>
         </div>
-        {/* Returns and Order */}
+
+        {/* Returns & Orders*/}
         <div className="header_option">
           <span className="header_optionlineOne">Returns </span>
+          <span className="header_optionlineOne"> & Orders </span>
         </div>
-        <div className="header_option">
-          <span className="header_optionlineTwo">& Orders</span>
-          <div className="header_option">
-            {/* Your Prime */}
-            <span className="header_optionlineOne">Your </span>
-          </div>
-          <div className="header_option">
-            <span className="header_optionlineTwo">Prim3</span>
-          </div>
 
-          <div className="header_optionBasket">
-            <ShoppingCartIcon />
-          </div>
+        {/* Your Prime */}
+        <div className="header_option">
+          <span className="header_optionlineOne">Your </span>
+          <span className="header_optionlineTwo">Prim3</span>
+        </div>
+
+        {/* Shopping Cart Icon */}
+        <div className="header_optionBasket">
+          <ShoppingCartIcon />
         </div>
       </div>
     </div>
