@@ -13,7 +13,10 @@
     object-fit: contain;
     margin: 0 20px;
     margin-top: 18px;
+    
 }
+
+
 
 .header_search{
     display: flex;
@@ -33,4 +36,17 @@
     padding: 5px;
     height: 22pc !important;
     background-color: #cd9042;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
 }
