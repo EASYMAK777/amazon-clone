@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World lets build the Amazon store</h1>
+      {/* Header */}
+      {/* Home */}
     </div>
   );
 }
