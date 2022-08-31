@@ -8,6 +8,11 @@ function Header() {
         className="header"
         src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
       />
+
+      <div className="header_search">
+        <input className="header_searchInput" type="text" />
+        {/* Logo */}
+      </div>
     </div>
   );
 }
