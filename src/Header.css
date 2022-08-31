@@ -33,8 +33,9 @@
 }
 
 .header_searchIcon{
+    
     padding: 5px;
-    height: 22pc !important;
+    height: 22px !important;
     background-color: #cd9042;
 }
 
@@ -55,11 +56,16 @@
     font-weight: 800;
 }
 
-.header-optionCart{
+.header_optionCart{
     display: flex;
     align-items: center;
     color: white;
 
+}
+
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header_nav{
