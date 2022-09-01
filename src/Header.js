@@ -39,10 +39,12 @@ function Header() {
         </div>
 
         {/* Shopping Cart Icon */}
-        <div className="header_optionCart">
-          <ShoppingCartIcon />
-          <span className="header_optionLineTwo header_basketCount">0</span>
-        </div>
+        <Link to="/checkout">
+          <div className="header_optionCart">
+            <ShoppingCartIcon />
+            <span className="header_optionLineTwo header_basketCount">0</span>
+          </div>
+        </Link>
       </div>
     </div>
   );
