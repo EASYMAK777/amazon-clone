@@ -10,3 +10,8 @@
     border-radius: 3px;
     
 }
+
+.subtotal_gift{
+    display: flex;
+    align-items: center;
+}
