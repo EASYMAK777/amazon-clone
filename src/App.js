@@ -1,16 +1,22 @@
 import React from "react";
-import Header from "./Header";
+import Checkout from "./Checkout";
 import Home from "./Home";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/" element={<Home />} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 export default App;
