@@ -9,7 +9,14 @@ function Checkout() {
           className="checkout_ad"
           src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
           alt="advertisment"
-        ></img>
+        />
+
+        <div>
+          <h2 className="checkout_title">Your shopping Cart</h2>
+        </div>
+      </div>
+      <div className="checkout_right">
+        <h2>Subtotal goes here</h2>
       </div>
     </div>
   );
