@@ -23,7 +23,7 @@ function Login() {
           <h5>Password</h5>
           <input type="password" />
 
-          <button>Sign-in</button>
+          <button className="login_signInButton">Sign-in</button>
         </form>
         <p>
           By signing in you agree to Amazon's Conditions of Use & sale. Please
@@ -31,7 +31,9 @@ function Login() {
           Notice.
         </p>
 
-        <button>Create Your Amazon Account</button>
+        <button className="login_registerButton">
+          Create Your Amazon Account
+        </button>
       </div>
     </div>
   );
