@@ -30,6 +30,8 @@ function Login() {
           see our Privacy notice, our Cookies Notice and our Interest-Based Ads
           Notice.
         </p>
+
+        <button>Create Your Amazon Account</button>
       </div>
     </div>
   );
