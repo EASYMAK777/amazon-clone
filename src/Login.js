@@ -9,6 +9,14 @@ function Login() {
 
   const signIn = (event) => {
     event.preventDefault();
+
+    // FIREBASE
+  };
+
+  const register = (event) => {
+    event.preventDefault();
+
+    // Firebase register
   };
 
   return (
@@ -50,7 +58,7 @@ function Login() {
           Notice.
         </p>
 
-        <button>Create Your Amazon Account</button>
+        <button onClick={register}>Create Your Amazon Account</button>
       </div>
     </div>
   );
