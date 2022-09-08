@@ -4,6 +4,7 @@ import Home from "./Home";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
+import Login from "./Login";
 
 function App() {
   return (
