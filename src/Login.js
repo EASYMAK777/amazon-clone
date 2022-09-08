@@ -1,10 +1,13 @@
 import React from "react";
+import { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const signIn = (event) => {};
 
   return (
     <div className="login">
@@ -35,7 +38,9 @@ function Login() {
             onChange={(event) => setPassword(event.target.value)}
           />
 
-          <button>Sign-in</button>
+          <button type="submit" onClick={signIn}>
+            Sign-in
+          </button>
         </form>
         <p>
           By signing in you agree to Amazon's Conditions of Use & sale. Please
