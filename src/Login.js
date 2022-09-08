@@ -7,7 +7,9 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const signIn = (event) => {};
+  const signIn = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <div className="login">
